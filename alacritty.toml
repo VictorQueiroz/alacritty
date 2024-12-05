@@ -1,0 +1,50 @@
+[selection]
+save_to_clipboard = true
+
+[cursor]
+thickness = 1
+blink_interval = 500
+
+  [cursor.style]
+    shape = "Beam"
+    blinking = "Always"
+#   [cursor.style]
+#   #shape = "Block"
+#   thickness = 1
+# 
+#   unfocused_hollow = true
+
+[font]
+size = 10
+
+  [font.normal]
+  family = "JetBrains Mono"
+
+  [font.bold]
+  family = "JetBrains Mono"
+
+  [font.italic]
+  family = "JetBrains Mono"
+
+  [font.bold_italic]
+  family = "JetBrains Mono"
+
+[colors.cursor]
+text = "#282828"
+
+[window]
+dynamic_padding = true
+dynamic_title = true
+
+[scrolling]
+multiplier = 1
+
+[mouse]
+hide_when_typing = true
+
+[terminal]
+osc52 = "CopyPaste"
+
+# [terminal.shell]
+# program = "/usr/bin/tmux"
+# args = ["new-session", "-A", "-s", "alacritty"]
